@@ -1,0 +1,14 @@
+# Como Usar
+
+```
+# 1) Guardar el script (por ejemplo en ./Script/analyze_moodle_filedir.sh)
+chmod +x ./Script/analyze_moodle_filedir.sh
+
+# 2) Ejecutar apuntando al filedir de Moodle
+./Script/analyze_moodle_filedir.sh /home/zeus/work/Lucy-Laravel-Moodle/veco/moodledata/moodledata/filedir
+
+# 3) Resultado
+#  - CSV resumen por MIME:  ./moodle_filedir_summary_YYYYmmdd-HHMMSS.csv
+#  - CSV detalle (archivo por archivo): ./moodle_filedir_full_YYYYmmdd-HHMMSS.csv
+#  - Totales y top-10 por pantalla
+```
